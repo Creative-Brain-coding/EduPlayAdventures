@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "EduPlay Adventures",
+    "slug": "eduplay-adventures",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/VBIQxBIr.jpg",
+    "scheme": "eduplay",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/VBIQxBIr.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#87CEEB"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/VBIQxBIr.jpg"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
